@@ -25,11 +25,3 @@ if [ ! -d clang ]; then
 #    git clone https://github.com/arter97/arm32-gcc.git --depth=1
 #    git clone https://github.com/MumetNgoding/proton-clang.git --depth=1
 fi
-
-# Download libufdt
-if [ ! -d libufdt ]; then
-    wget https://android.googlesource.com/platform/system/libufdt/+archive/refs/tags/android-10.0.0_r41/utils.tar.gz
-    mkdir -p libufdt
-    tar xvzf utils.tar.gz -C libufdt
-    rm utils.tar.gz
-fi
