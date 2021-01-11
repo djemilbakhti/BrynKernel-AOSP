@@ -6,8 +6,8 @@ jobs:
    steps:
       - run:
           command: |
-           git config --global user.name "MumetNgoding"
-           git config --global user.email "nugroho31.com@gmail.com"
+           git config --global user.name "djemilbakhti"
+           git config --global user.email "androidf29@gmail.com"
            git clone https://github.com/djemilbakhti/BrynKernel-AOSP Q
            cd Q
            chmod a+x gettools.sh
