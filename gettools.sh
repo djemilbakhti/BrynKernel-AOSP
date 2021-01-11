@@ -25,3 +25,4 @@ if [ ! -d clang ]; then
 #    git clone https://github.com/arter97/arm32-gcc.git --depth=1
 #    git clone https://github.com/MumetNgoding/proton-clang.git --depth=1
 fi
+sh build.clang.sh
